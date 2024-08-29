@@ -1,0 +1,31 @@
+#quiz-container {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#question-container {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#choices-container label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#result-container {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+.correct {
+    animation: blink 0.2s steps(2, start) 10; /* Define blink animation */
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
